@@ -30,7 +30,7 @@
     CGFloat  _keyboardHeight;  //键盘升起高度
     double   _keyBoardTime;    //键盘升降时间
     
-    NSMutableAttributedString *_attributeString;
+//    NSMutableAttributedString *_attributeString
 }
 
 - (instancetype)initWithTargetView:(UIView *)targetView{
@@ -43,7 +43,7 @@
         [targetView addSubview:self];
         [self createTextViewWithFrame:self.frame];
         
-        _attributeString = [[NSMutableAttributedString alloc]init];
+//        _attributeString = [[NSMutableAttributedString alloc]init];
 
         _fontSize = 15;
     }
@@ -63,6 +63,9 @@
     _textView.layer.cornerRadius = 5;
     _textView.layer.masksToBounds = YES;
     _textView.delegate = self;
+    
+    //这一句没有的话，第一次数据非表情的话，会出现光标不移动问题
+    _textView.attributedText = [[NSMutableAttributedString alloc]initWithString:@" "];
     
     _emotionBtn = [[UIButton alloc]initWithFrame:CGRectMake(_textViewBG.frame.size.width - 40, (_textViewBG.frame.size.height - 30)/2, 30, 30)];
     [_emotionBtn setImage:[UIImage imageNamed:@"emotion"] forState:UIControlStateNormal];
@@ -142,7 +145,7 @@
     _textView.attributedText = mutableAttributeString;
 
     //刷新文本框
-    [_textView insertText:@""];
+//    [_textView insertText:@""];
     
     _textView.font = [UIFont systemFontOfSize:_fontSize];
     
@@ -154,7 +157,7 @@
     
     if ([text isEqualToString:@"\n"]) {
         [self.delegate returnTextStr:[_textView.attributedText getPlainString]];
-        
+        NSLog(@"转换成汉字++++++%@",[_textView.attributedText getPlainString]);
         _textView.attributedText = nil;
         
         return NO;

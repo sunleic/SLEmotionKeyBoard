@@ -62,11 +62,6 @@
 }
 
 
-
-
-
-
-
 - (void)btnClick{
 //    NSLog(@"**********");
     [_keyboardView.textView becomeFirstResponder];

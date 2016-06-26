@@ -19,10 +19,10 @@
 
 @property (nonatomic, assign) id<SLKeyboardViewDelegate> delegate;
 
-@property (nonatomic, strong) UITextView      *textView;
+@property (nonatomic, strong) UITextView  *textView;
 
 //subView有textView 和 表情button
-@property (nonatomic, strong) UIView          *textViewBG;
+@property (nonatomic, strong) UIView  *textViewBG;
 
 
 //创建表情键盘
