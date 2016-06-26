@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71151D0A1CC7206200DFBF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D091CC7206200DFBF3C /* main.m */; };
+		71151D0D1CC7206200DFBF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D0C1CC7206200DFBF3C /* AppDelegate.m */; };
+		71151D101CC7206200DFBF3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D0F1CC7206200DFBF3C /* ViewController.m */; };
+		71151D131CC7206200DFBF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71151D111CC7206200DFBF3C /* Main.storyboard */; };
+		71151D151CC7206200DFBF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71151D141CC7206200DFBF3C /* Assets.xcassets */; };
+		71151D181CC7206200DFBF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71151D161CC7206200DFBF3C /* LaunchScreen.storyboard */; };
+		71151D231CC7206200DFBF3C /* SLEmotionKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D221CC7206200DFBF3C /* SLEmotionKeyBoardTests.m */; };
+		71151D2E1CC7206200DFBF3C /* SLEmotionKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D2D1CC7206200DFBF3C /* SLEmotionKeyBoardUITests.m */; };
+		71151D3E1CC720D200DFBF3C /* SLKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D3D1CC720D200DFBF3C /* SLKeyboardView.m */; };
+		71151D411CC7295B00DFBF3C /* EmotionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151D401CC7295B00DFBF3C /* EmotionScrollView.m */; };
+		711521381CC7452E00DFBF3C /* emoji.txt in Resources */ = {isa = PBXBuildFile; fileRef = 711520CC1CC7452E00DFBF3C /* emoji.txt */; };
+		711521391CC7452E00DFBF3C /* emoji_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520CD1CC7452E00DFBF3C /* emoji_1.png */; };
+		7115213A1CC7452E00DFBF3C /* emoji_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520CE1CC7452E00DFBF3C /* emoji_10.png */; };
+		7115213B1CC7452E00DFBF3C /* emoji_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520CF1CC7452E00DFBF3C /* emoji_100.png */; };
+		7115213C1CC7452E00DFBF3C /* emoji_101.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D01CC7452E00DFBF3C /* emoji_101.png */; };
+		7115213D1CC7452E00DFBF3C /* emoji_102.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D11CC7452E00DFBF3C /* emoji_102.png */; };
+		7115213E1CC7452E00DFBF3C /* emoji_103.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D21CC7452E00DFBF3C /* emoji_103.png */; };
+		7115213F1CC7452E00DFBF3C /* emoji_104.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D31CC7452E00DFBF3C /* emoji_104.png */; };
+		711521401CC7452E00DFBF3C /* emoji_105.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D41CC7452E00DFBF3C /* emoji_105.png */; };
+		711521411CC7452E00DFBF3C /* emoji_106.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D51CC7452E00DFBF3C /* emoji_106.png */; };
+		711521421CC7452E00DFBF3C /* emoji_107.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D61CC7452E00DFBF3C /* emoji_107.png */; };
+		711521431CC7452E00DFBF3C /* emoji_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D71CC7452E00DFBF3C /* emoji_11.png */; };
+		711521441CC7452E00DFBF3C /* emoji_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D81CC7452E00DFBF3C /* emoji_12.png */; };
+		711521451CC7452E00DFBF3C /* emoji_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520D91CC7452E00DFBF3C /* emoji_13.png */; };
+		711521461CC7452E00DFBF3C /* emoji_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DA1CC7452E00DFBF3C /* emoji_14.png */; };
+		711521471CC7452E00DFBF3C /* emoji_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DB1CC7452E00DFBF3C /* emoji_15.png */; };
+		711521481CC7452E00DFBF3C /* emoji_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DC1CC7452E00DFBF3C /* emoji_16.png */; };
+		711521491CC7452E00DFBF3C /* emoji_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DD1CC7452E00DFBF3C /* emoji_17.png */; };
+		7115214A1CC7452E00DFBF3C /* emoji_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DE1CC7452E00DFBF3C /* emoji_18.png */; };
+		7115214B1CC7452E00DFBF3C /* emoji_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520DF1CC7452E00DFBF3C /* emoji_19.png */; };
+		7115214C1CC7452E00DFBF3C /* emoji_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E01CC7452E00DFBF3C /* emoji_2.png */; };
+		7115214D1CC7452E00DFBF3C /* emoji_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E11CC7452E00DFBF3C /* emoji_20.png */; };
+		7115214E1CC7452E00DFBF3C /* emoji_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E21CC7452E00DFBF3C /* emoji_21.png */; };
+		7115214F1CC7452E00DFBF3C /* emoji_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E31CC7452E00DFBF3C /* emoji_22.png */; };
+		711521501CC7452E00DFBF3C /* emoji_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E41CC7452E00DFBF3C /* emoji_23.png */; };
+		711521511CC7452E00DFBF3C /* emoji_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E51CC7452E00DFBF3C /* emoji_24.png */; };
+		711521521CC7452E00DFBF3C /* emoji_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E61CC7452E00DFBF3C /* emoji_25.png */; };
+		711521531CC7452E00DFBF3C /* emoji_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E71CC7452E00DFBF3C /* emoji_26.png */; };
+		711521541CC7452E00DFBF3C /* emoji_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E81CC7452E00DFBF3C /* emoji_27.png */; };
+		711521551CC7452E00DFBF3C /* emoji_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520E91CC7452E00DFBF3C /* emoji_28.png */; };
+		711521561CC7452E00DFBF3C /* emoji_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520EA1CC7452E00DFBF3C /* emoji_29.png */; };
+		711521571CC7452E00DFBF3C /* emoji_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520EB1CC7452E00DFBF3C /* emoji_3.png */; };
+		711521581CC7452E00DFBF3C /* emoji_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520EC1CC7452E00DFBF3C /* emoji_30.png */; };
+		711521591CC7452E00DFBF3C /* emoji_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520ED1CC7452E00DFBF3C /* emoji_31.png */; };
+		7115215A1CC7452E00DFBF3C /* emoji_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520EE1CC7452E00DFBF3C /* emoji_32.png */; };
+		7115215B1CC7452E00DFBF3C /* emoji_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520EF1CC7452E00DFBF3C /* emoji_33.png */; };
+		7115215C1CC7452E00DFBF3C /* emoji_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F01CC7452E00DFBF3C /* emoji_34.png */; };
+		7115215D1CC7452E00DFBF3C /* emoji_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F11CC7452E00DFBF3C /* emoji_35.png */; };
+		7115215E1CC7452E00DFBF3C /* emoji_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F21CC7452E00DFBF3C /* emoji_36.png */; };
+		7115215F1CC7452E00DFBF3C /* emoji_37.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F31CC7452E00DFBF3C /* emoji_37.png */; };
+		711521601CC7452E00DFBF3C /* emoji_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F41CC7452E00DFBF3C /* emoji_38.png */; };
+		711521611CC7452E00DFBF3C /* emoji_39.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F51CC7452E00DFBF3C /* emoji_39.png */; };
+		711521621CC7452E00DFBF3C /* emoji_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F61CC7452E00DFBF3C /* emoji_4.png */; };
+		711521631CC7452E00DFBF3C /* emoji_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F71CC7452E00DFBF3C /* emoji_40.png */; };
+		711521641CC7452E00DFBF3C /* emoji_41.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F81CC7452E00DFBF3C /* emoji_41.png */; };
+		711521651CC7452E00DFBF3C /* emoji_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520F91CC7452E00DFBF3C /* emoji_42.png */; };
+		711521661CC7452E00DFBF3C /* emoji_43.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FA1CC7452E00DFBF3C /* emoji_43.png */; };
+		711521671CC7452E00DFBF3C /* emoji_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FB1CC7452E00DFBF3C /* emoji_44.png */; };
+		711521681CC7452E00DFBF3C /* emoji_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FC1CC7452E00DFBF3C /* emoji_45.png */; };
+		711521691CC7452E00DFBF3C /* emoji_46.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FD1CC7452E00DFBF3C /* emoji_46.png */; };
+		7115216A1CC7452E00DFBF3C /* emoji_47.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FE1CC7452E00DFBF3C /* emoji_47.png */; };
+		7115216B1CC7452E00DFBF3C /* emoji_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 711520FF1CC7452E00DFBF3C /* emoji_48.png */; };
+		7115216C1CC7452E00DFBF3C /* emoji_49.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521001CC7452E00DFBF3C /* emoji_49.png */; };
+		7115216D1CC7452E00DFBF3C /* emoji_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521011CC7452E00DFBF3C /* emoji_5.png */; };
+		7115216E1CC7452E00DFBF3C /* emoji_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521021CC7452E00DFBF3C /* emoji_50.png */; };
+		7115216F1CC7452E00DFBF3C /* emoji_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521031CC7452E00DFBF3C /* emoji_51.png */; };
+		711521701CC7452E00DFBF3C /* emoji_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521041CC7452E00DFBF3C /* emoji_52.png */; };
+		711521711CC7452E00DFBF3C /* emoji_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521051CC7452E00DFBF3C /* emoji_53.png */; };
+		711521721CC7452E00DFBF3C /* emoji_54.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521061CC7452E00DFBF3C /* emoji_54.png */; };
+		711521731CC7452E00DFBF3C /* emoji_55.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521071CC7452E00DFBF3C /* emoji_55.png */; };
+		711521741CC7452E00DFBF3C /* emoji_56.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521081CC7452E00DFBF3C /* emoji_56.png */; };
+		711521751CC7452E00DFBF3C /* emoji_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521091CC7452E00DFBF3C /* emoji_57.png */; };
+		711521761CC7452E00DFBF3C /* emoji_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210A1CC7452E00DFBF3C /* emoji_58.png */; };
+		711521771CC7452E00DFBF3C /* emoji_59.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210B1CC7452E00DFBF3C /* emoji_59.png */; };
+		711521781CC7452E00DFBF3C /* emoji_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210C1CC7452E00DFBF3C /* emoji_6.png */; };
+		711521791CC7452E00DFBF3C /* emoji_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210D1CC7452E00DFBF3C /* emoji_60.png */; };
+		7115217A1CC7452E00DFBF3C /* emoji_61.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210E1CC7452E00DFBF3C /* emoji_61.png */; };
+		7115217B1CC7452E00DFBF3C /* emoji_62.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115210F1CC7452E00DFBF3C /* emoji_62.png */; };
+		7115217C1CC7452E00DFBF3C /* emoji_63.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521101CC7452E00DFBF3C /* emoji_63.png */; };
+		7115217D1CC7452E00DFBF3C /* emoji_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521111CC7452E00DFBF3C /* emoji_64.png */; };
+		7115217E1CC7452E00DFBF3C /* emoji_65.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521121CC7452E00DFBF3C /* emoji_65.png */; };
+		7115217F1CC7452E00DFBF3C /* emoji_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521131CC7452E00DFBF3C /* emoji_66.png */; };
+		711521801CC7452E00DFBF3C /* emoji_67.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521141CC7452E00DFBF3C /* emoji_67.png */; };
+		711521811CC7452E00DFBF3C /* emoji_68.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521151CC7452E00DFBF3C /* emoji_68.png */; };
+		711521821CC7452E00DFBF3C /* emoji_69.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521161CC7452E00DFBF3C /* emoji_69.png */; };
+		711521831CC7452E00DFBF3C /* emoji_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521171CC7452E00DFBF3C /* emoji_7.png */; };
+		711521841CC7452E00DFBF3C /* emoji_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521181CC7452E00DFBF3C /* emoji_70.png */; };
+		711521851CC7452E00DFBF3C /* emoji_71.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521191CC7452E00DFBF3C /* emoji_71.png */; };
+		711521861CC7452E00DFBF3C /* emoji_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211A1CC7452E00DFBF3C /* emoji_72.png */; };
+		711521871CC7452E00DFBF3C /* emoji_73.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211B1CC7452E00DFBF3C /* emoji_73.png */; };
+		711521881CC7452E00DFBF3C /* emoji_74.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211C1CC7452E00DFBF3C /* emoji_74.png */; };
+		711521891CC7452E00DFBF3C /* emoji_75.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211D1CC7452E00DFBF3C /* emoji_75.png */; };
+		7115218A1CC7452E00DFBF3C /* emoji_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211E1CC7452E00DFBF3C /* emoji_76.png */; };
+		7115218B1CC7452E00DFBF3C /* emoji_77.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115211F1CC7452E00DFBF3C /* emoji_77.png */; };
+		7115218C1CC7452E00DFBF3C /* emoji_78.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521201CC7452E00DFBF3C /* emoji_78.png */; };
+		7115218D1CC7452E00DFBF3C /* emoji_79.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521211CC7452E00DFBF3C /* emoji_79.png */; };
+		7115218E1CC7452E00DFBF3C /* emoji_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521221CC7452E00DFBF3C /* emoji_8.png */; };
+		7115218F1CC7452E00DFBF3C /* emoji_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521231CC7452E00DFBF3C /* emoji_80.png */; };
+		711521901CC7452E00DFBF3C /* emoji_81.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521241CC7452E00DFBF3C /* emoji_81.png */; };
+		711521911CC7452E00DFBF3C /* emoji_82.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521251CC7452E00DFBF3C /* emoji_82.png */; };
+		711521921CC7452E00DFBF3C /* emoji_83.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521261CC7452E00DFBF3C /* emoji_83.png */; };
+		711521931CC7452E00DFBF3C /* emoji_84.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521271CC7452E00DFBF3C /* emoji_84.png */; };
+		711521941CC7452E00DFBF3C /* emoji_85.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521281CC7452E00DFBF3C /* emoji_85.png */; };
+		711521951CC7452E00DFBF3C /* emoji_86.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521291CC7452E00DFBF3C /* emoji_86.png */; };
+		711521961CC7452E00DFBF3C /* emoji_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212A1CC7452E00DFBF3C /* emoji_87.png */; };
+		711521971CC7452E00DFBF3C /* emoji_88.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212B1CC7452E00DFBF3C /* emoji_88.png */; };
+		711521981CC7452E00DFBF3C /* emoji_89.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212C1CC7452E00DFBF3C /* emoji_89.png */; };
+		711521991CC7452E00DFBF3C /* emoji_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212D1CC7452E00DFBF3C /* emoji_9.png */; };
+		7115219A1CC7452E00DFBF3C /* emoji_90.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212E1CC7452E00DFBF3C /* emoji_90.png */; };
+		7115219B1CC7452E00DFBF3C /* emoji_91.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115212F1CC7452E00DFBF3C /* emoji_91.png */; };
+		7115219C1CC7452E00DFBF3C /* emoji_92.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521301CC7452E00DFBF3C /* emoji_92.png */; };
+		7115219D1CC7452E00DFBF3C /* emoji_93.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521311CC7452E00DFBF3C /* emoji_93.png */; };
+		7115219E1CC7452E00DFBF3C /* emoji_94.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521321CC7452E00DFBF3C /* emoji_94.png */; };
+		7115219F1CC7452E00DFBF3C /* emoji_95.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521331CC7452E00DFBF3C /* emoji_95.png */; };
+		711521A01CC7452E00DFBF3C /* emoji_96.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521341CC7452E00DFBF3C /* emoji_96.png */; };
+		711521A11CC7452E00DFBF3C /* emoji_97.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521351CC7452E00DFBF3C /* emoji_97.png */; };
+		711521A21CC7452E00DFBF3C /* emoji_98.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521361CC7452E00DFBF3C /* emoji_98.png */; };
+		711521A31CC7452E00DFBF3C /* emoji_99.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521371CC7452E00DFBF3C /* emoji_99.png */; };
+		711521A81CC8711100DFBF3C /* emotion.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521A41CC8711100DFBF3C /* emotion.png */; };
+		711521A91CC8711100DFBF3C /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521A51CC8711100DFBF3C /* keyboard.png */; };
+		711521AA1CC8711100DFBF3C /* emotion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521A61CC8711100DFBF3C /* emotion@2x.png */; };
+		711521AB1CC8711100DFBF3C /* keboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711521A71CC8711100DFBF3C /* keboard@2x.png */; };
+		71ADF2D61D056AFF00F163C5 /* EmotionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADF2D51D056AFF00F163C5 /* EmotionLabel.m */; };
+		71ADF2DA1D06CC8F00F163C5 /* NSAttributedString+Emotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADF2D91D06CC8F00F163C5 /* NSAttributedString+Emotion.m */; };
+		71ADF2DD1D06CD4500F163C5 /* EmotionTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADF2DC1D06CD4500F163C5 /* EmotionTextAttachment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71151D1F1CC7206200DFBF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71151CFD1CC7206200DFBF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71151D041CC7206200DFBF3C;
+			remoteInfo = SLEmotionKeyBoard;
+		};
+		71151D2A1CC7206200DFBF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71151CFD1CC7206200DFBF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71151D041CC7206200DFBF3C;
+			remoteInfo = SLEmotionKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71151D051CC7206200DFBF3C /* SLEmotionKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLEmotionKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71151D091CC7206200DFBF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71151D0B1CC7206200DFBF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71151D0C1CC7206200DFBF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71151D0E1CC7206200DFBF3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71151D0F1CC7206200DFBF3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71151D121CC7206200DFBF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71151D141CC7206200DFBF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71151D171CC7206200DFBF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71151D191CC7206200DFBF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71151D1E1CC7206200DFBF3C /* SLEmotionKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLEmotionKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71151D221CC7206200DFBF3C /* SLEmotionKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEmotionKeyBoardTests.m; sourceTree = "<group>"; };
+		71151D241CC7206200DFBF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71151D291CC7206200DFBF3C /* SLEmotionKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLEmotionKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71151D2D1CC7206200DFBF3C /* SLEmotionKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLEmotionKeyBoardUITests.m; sourceTree = "<group>"; };
+		71151D2F1CC7206200DFBF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71151D3C1CC720D200DFBF3C /* SLKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKeyboardView.h; sourceTree = "<group>"; };
+		71151D3D1CC720D200DFBF3C /* SLKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKeyboardView.m; sourceTree = "<group>"; };
+		71151D3F1CC7295B00DFBF3C /* EmotionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionScrollView.h; sourceTree = "<group>"; };
+		71151D401CC7295B00DFBF3C /* EmotionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionScrollView.m; sourceTree = "<group>"; };
+		711520CC1CC7452E00DFBF3C /* emoji.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emoji.txt; sourceTree = "<group>"; };
+		711520CD1CC7452E00DFBF3C /* emoji_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_1.png; sourceTree = "<group>"; };
+		711520CE1CC7452E00DFBF3C /* emoji_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_10.png; sourceTree = "<group>"; };
+		711520CF1CC7452E00DFBF3C /* emoji_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_100.png; sourceTree = "<group>"; };
+		711520D01CC7452E00DFBF3C /* emoji_101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_101.png; sourceTree = "<group>"; };
+		711520D11CC7452E00DFBF3C /* emoji_102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_102.png; sourceTree = "<group>"; };
+		711520D21CC7452E00DFBF3C /* emoji_103.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_103.png; sourceTree = "<group>"; };
+		711520D31CC7452E00DFBF3C /* emoji_104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_104.png; sourceTree = "<group>"; };
+		711520D41CC7452E00DFBF3C /* emoji_105.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_105.png; sourceTree = "<group>"; };
+		711520D51CC7452E00DFBF3C /* emoji_106.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_106.png; sourceTree = "<group>"; };
+		711520D61CC7452E00DFBF3C /* emoji_107.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_107.png; sourceTree = "<group>"; };
+		711520D71CC7452E00DFBF3C /* emoji_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_11.png; sourceTree = "<group>"; };
+		711520D81CC7452E00DFBF3C /* emoji_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_12.png; sourceTree = "<group>"; };
+		711520D91CC7452E00DFBF3C /* emoji_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_13.png; sourceTree = "<group>"; };
+		711520DA1CC7452E00DFBF3C /* emoji_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_14.png; sourceTree = "<group>"; };
+		711520DB1CC7452E00DFBF3C /* emoji_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_15.png; sourceTree = "<group>"; };
+		711520DC1CC7452E00DFBF3C /* emoji_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_16.png; sourceTree = "<group>"; };
+		711520DD1CC7452E00DFBF3C /* emoji_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_17.png; sourceTree = "<group>"; };
+		711520DE1CC7452E00DFBF3C /* emoji_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_18.png; sourceTree = "<group>"; };
+		711520DF1CC7452E00DFBF3C /* emoji_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_19.png; sourceTree = "<group>"; };
+		711520E01CC7452E00DFBF3C /* emoji_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_2.png; sourceTree = "<group>"; };
+		711520E11CC7452E00DFBF3C /* emoji_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_20.png; sourceTree = "<group>"; };
+		711520E21CC7452E00DFBF3C /* emoji_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_21.png; sourceTree = "<group>"; };
+		711520E31CC7452E00DFBF3C /* emoji_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_22.png; sourceTree = "<group>"; };
+		711520E41CC7452E00DFBF3C /* emoji_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_23.png; sourceTree = "<group>"; };
+		711520E51CC7452E00DFBF3C /* emoji_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_24.png; sourceTree = "<group>"; };
+		711520E61CC7452E00DFBF3C /* emoji_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_25.png; sourceTree = "<group>"; };
+		711520E71CC7452E00DFBF3C /* emoji_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_26.png; sourceTree = "<group>"; };
+		711520E81CC7452E00DFBF3C /* emoji_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_27.png; sourceTree = "<group>"; };
+		711520E91CC7452E00DFBF3C /* emoji_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_28.png; sourceTree = "<group>"; };
+		711520EA1CC7452E00DFBF3C /* emoji_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_29.png; sourceTree = "<group>"; };
+		711520EB1CC7452E00DFBF3C /* emoji_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_3.png; sourceTree = "<group>"; };
+		711520EC1CC7452E00DFBF3C /* emoji_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_30.png; sourceTree = "<group>"; };
+		711520ED1CC7452E00DFBF3C /* emoji_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_31.png; sourceTree = "<group>"; };
+		711520EE1CC7452E00DFBF3C /* emoji_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_32.png; sourceTree = "<group>"; };
+		711520EF1CC7452E00DFBF3C /* emoji_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_33.png; sourceTree = "<group>"; };
+		711520F01CC7452E00DFBF3C /* emoji_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_34.png; sourceTree = "<group>"; };
+		711520F11CC7452E00DFBF3C /* emoji_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_35.png; sourceTree = "<group>"; };
+		711520F21CC7452E00DFBF3C /* emoji_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_36.png; sourceTree = "<group>"; };
+		711520F31CC7452E00DFBF3C /* emoji_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_37.png; sourceTree = "<group>"; };
+		711520F41CC7452E00DFBF3C /* emoji_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_38.png; sourceTree = "<group>"; };
+		711520F51CC7452E00DFBF3C /* emoji_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_39.png; sourceTree = "<group>"; };
+		711520F61CC7452E00DFBF3C /* emoji_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_4.png; sourceTree = "<group>"; };
+		711520F71CC7452E00DFBF3C /* emoji_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_40.png; sourceTree = "<group>"; };
+		711520F81CC7452E00DFBF3C /* emoji_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_41.png; sourceTree = "<group>"; };
+		711520F91CC7452E00DFBF3C /* emoji_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_42.png; sourceTree = "<group>"; };
+		711520FA1CC7452E00DFBF3C /* emoji_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_43.png; sourceTree = "<group>"; };
+		711520FB1CC7452E00DFBF3C /* emoji_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_44.png; sourceTree = "<group>"; };
+		711520FC1CC7452E00DFBF3C /* emoji_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_45.png; sourceTree = "<group>"; };
+		711520FD1CC7452E00DFBF3C /* emoji_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_46.png; sourceTree = "<group>"; };
+		711520FE1CC7452E00DFBF3C /* emoji_47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_47.png; sourceTree = "<group>"; };
+		711520FF1CC7452E00DFBF3C /* emoji_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_48.png; sourceTree = "<group>"; };
+		711521001CC7452E00DFBF3C /* emoji_49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_49.png; sourceTree = "<group>"; };
+		711521011CC7452E00DFBF3C /* emoji_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_5.png; sourceTree = "<group>"; };
+		711521021CC7452E00DFBF3C /* emoji_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_50.png; sourceTree = "<group>"; };
+		711521031CC7452E00DFBF3C /* emoji_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_51.png; sourceTree = "<group>"; };
+		711521041CC7452E00DFBF3C /* emoji_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_52.png; sourceTree = "<group>"; };
+		711521051CC7452E00DFBF3C /* emoji_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_53.png; sourceTree = "<group>"; };
+		711521061CC7452E00DFBF3C /* emoji_54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_54.png; sourceTree = "<group>"; };
+		711521071CC7452E00DFBF3C /* emoji_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_55.png; sourceTree = "<group>"; };
+		711521081CC7452E00DFBF3C /* emoji_56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_56.png; sourceTree = "<group>"; };
+		711521091CC7452E00DFBF3C /* emoji_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_57.png; sourceTree = "<group>"; };
+		7115210A1CC7452E00DFBF3C /* emoji_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_58.png; sourceTree = "<group>"; };
+		7115210B1CC7452E00DFBF3C /* emoji_59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_59.png; sourceTree = "<group>"; };
+		7115210C1CC7452E00DFBF3C /* emoji_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_6.png; sourceTree = "<group>"; };
+		7115210D1CC7452E00DFBF3C /* emoji_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_60.png; sourceTree = "<group>"; };
+		7115210E1CC7452E00DFBF3C /* emoji_61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_61.png; sourceTree = "<group>"; };
+		7115210F1CC7452E00DFBF3C /* emoji_62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_62.png; sourceTree = "<group>"; };
+		711521101CC7452E00DFBF3C /* emoji_63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_63.png; sourceTree = "<group>"; };
+		711521111CC7452E00DFBF3C /* emoji_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_64.png; sourceTree = "<group>"; };
+		711521121CC7452E00DFBF3C /* emoji_65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_65.png; sourceTree = "<group>"; };
+		711521131CC7452E00DFBF3C /* emoji_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_66.png; sourceTree = "<group>"; };
+		711521141CC7452E00DFBF3C /* emoji_67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_67.png; sourceTree = "<group>"; };
+		711521151CC7452E00DFBF3C /* emoji_68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_68.png; sourceTree = "<group>"; };
+		711521161CC7452E00DFBF3C /* emoji_69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_69.png; sourceTree = "<group>"; };
+		711521171CC7452E00DFBF3C /* emoji_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_7.png; sourceTree = "<group>"; };
+		711521181CC7452E00DFBF3C /* emoji_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_70.png; sourceTree = "<group>"; };
+		711521191CC7452E00DFBF3C /* emoji_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_71.png; sourceTree = "<group>"; };
+		7115211A1CC7452E00DFBF3C /* emoji_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_72.png; sourceTree = "<group>"; };
+		7115211B1CC7452E00DFBF3C /* emoji_73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_73.png; sourceTree = "<group>"; };
+		7115211C1CC7452E00DFBF3C /* emoji_74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_74.png; sourceTree = "<group>"; };
+		7115211D1CC7452E00DFBF3C /* emoji_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_75.png; sourceTree = "<group>"; };
+		7115211E1CC7452E00DFBF3C /* emoji_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_76.png; sourceTree = "<group>"; };
+		7115211F1CC7452E00DFBF3C /* emoji_77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_77.png; sourceTree = "<group>"; };
+		711521201CC7452E00DFBF3C /* emoji_78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_78.png; sourceTree = "<group>"; };
+		711521211CC7452E00DFBF3C /* emoji_79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_79.png; sourceTree = "<group>"; };
+		711521221CC7452E00DFBF3C /* emoji_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_8.png; sourceTree = "<group>"; };
+		711521231CC7452E00DFBF3C /* emoji_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_80.png; sourceTree = "<group>"; };
+		711521241CC7452E00DFBF3C /* emoji_81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_81.png; sourceTree = "<group>"; };
+		711521251CC7452E00DFBF3C /* emoji_82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_82.png; sourceTree = "<group>"; };
+		711521261CC7452E00DFBF3C /* emoji_83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_83.png; sourceTree = "<group>"; };
+		711521271CC7452E00DFBF3C /* emoji_84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_84.png; sourceTree = "<group>"; };
+		711521281CC7452E00DFBF3C /* emoji_85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_85.png; sourceTree = "<group>"; };
+		711521291CC7452E00DFBF3C /* emoji_86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_86.png; sourceTree = "<group>"; };
+		7115212A1CC7452E00DFBF3C /* emoji_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_87.png; sourceTree = "<group>"; };
+		7115212B1CC7452E00DFBF3C /* emoji_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_88.png; sourceTree = "<group>"; };
+		7115212C1CC7452E00DFBF3C /* emoji_89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_89.png; sourceTree = "<group>"; };
+		7115212D1CC7452E00DFBF3C /* emoji_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_9.png; sourceTree = "<group>"; };
+		7115212E1CC7452E00DFBF3C /* emoji_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_90.png; sourceTree = "<group>"; };
+		7115212F1CC7452E00DFBF3C /* emoji_91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_91.png; sourceTree = "<group>"; };
+		711521301CC7452E00DFBF3C /* emoji_92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_92.png; sourceTree = "<group>"; };
+		711521311CC7452E00DFBF3C /* emoji_93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_93.png; sourceTree = "<group>"; };
+		711521321CC7452E00DFBF3C /* emoji_94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_94.png; sourceTree = "<group>"; };
+		711521331CC7452E00DFBF3C /* emoji_95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_95.png; sourceTree = "<group>"; };
+		711521341CC7452E00DFBF3C /* emoji_96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_96.png; sourceTree = "<group>"; };
+		711521351CC7452E00DFBF3C /* emoji_97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_97.png; sourceTree = "<group>"; };
+		711521361CC7452E00DFBF3C /* emoji_98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_98.png; sourceTree = "<group>"; };
+		711521371CC7452E00DFBF3C /* emoji_99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_99.png; sourceTree = "<group>"; };
+		711521A41CC8711100DFBF3C /* emotion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion.png; sourceTree = "<group>"; };
+		711521A51CC8711100DFBF3C /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		711521A61CC8711100DFBF3C /* emotion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emotion@2x.png"; sourceTree = "<group>"; };
+		711521A71CC8711100DFBF3C /* keboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keboard@2x.png"; sourceTree = "<group>"; };
+		71ADF2D41D056AFF00F163C5 /* EmotionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionLabel.h; sourceTree = "<group>"; };
+		71ADF2D51D056AFF00F163C5 /* EmotionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionLabel.m; sourceTree = "<group>"; };
+		71ADF2D81D06CC8F00F163C5 /* NSAttributedString+Emotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Emotion.h"; sourceTree = "<group>"; };
+		71ADF2D91D06CC8F00F163C5 /* NSAttributedString+Emotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Emotion.m"; sourceTree = "<group>"; };
+		71ADF2DB1D06CD4500F163C5 /* EmotionTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionTextAttachment.h; sourceTree = "<group>"; };
+		71ADF2DC1D06CD4500F163C5 /* EmotionTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionTextAttachment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71151D021CC7206200DFBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D1B1CC7206200DFBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D261CC7206200DFBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71151CFC1CC7206200DFBF3C = {
+			isa = PBXGroup;
+			children = (
+				71151D071CC7206200DFBF3C /* SLEmotionKeyBoard */,
+				71151D211CC7206200DFBF3C /* SLEmotionKeyBoardTests */,
+				71151D2C1CC7206200DFBF3C /* SLEmotionKeyBoardUITests */,
+				71151D061CC7206200DFBF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71151D061CC7206200DFBF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71151D051CC7206200DFBF3C /* SLEmotionKeyBoard.app */,
+				71151D1E1CC7206200DFBF3C /* SLEmotionKeyBoardTests.xctest */,
+				71151D291CC7206200DFBF3C /* SLEmotionKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71151D071CC7206200DFBF3C /* SLEmotionKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				71151D3B1CC7208700DFBF3C /* SLEmotionKeyBoard */,
+				71151D0B1CC7206200DFBF3C /* AppDelegate.h */,
+				71151D0C1CC7206200DFBF3C /* AppDelegate.m */,
+				71151D0E1CC7206200DFBF3C /* ViewController.h */,
+				71151D0F1CC7206200DFBF3C /* ViewController.m */,
+				71151D111CC7206200DFBF3C /* Main.storyboard */,
+				71151D141CC7206200DFBF3C /* Assets.xcassets */,
+				71151D161CC7206200DFBF3C /* LaunchScreen.storyboard */,
+				71151D191CC7206200DFBF3C /* Info.plist */,
+				71151D081CC7206200DFBF3C /* Supporting Files */,
+			);
+			path = SLEmotionKeyBoard;
+			sourceTree = "<group>";
+		};
+		71151D081CC7206200DFBF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71151D091CC7206200DFBF3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71151D211CC7206200DFBF3C /* SLEmotionKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				71151D221CC7206200DFBF3C /* SLEmotionKeyBoardTests.m */,
+				71151D241CC7206200DFBF3C /* Info.plist */,
+			);
+			path = SLEmotionKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		71151D2C1CC7206200DFBF3C /* SLEmotionKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71151D2D1CC7206200DFBF3C /* SLEmotionKeyBoardUITests.m */,
+				71151D2F1CC7206200DFBF3C /* Info.plist */,
+			);
+			path = SLEmotionKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		71151D3B1CC7208700DFBF3C /* SLEmotionKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				71ADF2D71D06CC3500F163C5 /* Extents */,
+				711520CB1CC7452E00DFBF3C /* Images */,
+				711521A41CC8711100DFBF3C /* emotion.png */,
+				711521A51CC8711100DFBF3C /* keyboard.png */,
+				711521A61CC8711100DFBF3C /* emotion@2x.png */,
+				711521A71CC8711100DFBF3C /* keboard@2x.png */,
+				71151D3C1CC720D200DFBF3C /* SLKeyboardView.h */,
+				71151D3D1CC720D200DFBF3C /* SLKeyboardView.m */,
+				71151D3F1CC7295B00DFBF3C /* EmotionScrollView.h */,
+				71151D401CC7295B00DFBF3C /* EmotionScrollView.m */,
+				71ADF2D41D056AFF00F163C5 /* EmotionLabel.h */,
+				71ADF2D51D056AFF00F163C5 /* EmotionLabel.m */,
+				71ADF2DB1D06CD4500F163C5 /* EmotionTextAttachment.h */,
+				71ADF2DC1D06CD4500F163C5 /* EmotionTextAttachment.m */,
+			);
+			path = SLEmotionKeyBoard;
+			sourceTree = "<group>";
+		};
+		711520CB1CC7452E00DFBF3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				711520CC1CC7452E00DFBF3C /* emoji.txt */,
+				711520CD1CC7452E00DFBF3C /* emoji_1.png */,
+				711520CE1CC7452E00DFBF3C /* emoji_10.png */,
+				711520CF1CC7452E00DFBF3C /* emoji_100.png */,
+				711520D01CC7452E00DFBF3C /* emoji_101.png */,
+				711520D11CC7452E00DFBF3C /* emoji_102.png */,
+				711520D21CC7452E00DFBF3C /* emoji_103.png */,
+				711520D31CC7452E00DFBF3C /* emoji_104.png */,
+				711520D41CC7452E00DFBF3C /* emoji_105.png */,
+				711520D51CC7452E00DFBF3C /* emoji_106.png */,
+				711520D61CC7452E00DFBF3C /* emoji_107.png */,
+				711520D71CC7452E00DFBF3C /* emoji_11.png */,
+				711520D81CC7452E00DFBF3C /* emoji_12.png */,
+				711520D91CC7452E00DFBF3C /* emoji_13.png */,
+				711520DA1CC7452E00DFBF3C /* emoji_14.png */,
+				711520DB1CC7452E00DFBF3C /* emoji_15.png */,
+				711520DC1CC7452E00DFBF3C /* emoji_16.png */,
+				711520DD1CC7452E00DFBF3C /* emoji_17.png */,
+				711520DE1CC7452E00DFBF3C /* emoji_18.png */,
+				711520DF1CC7452E00DFBF3C /* emoji_19.png */,
+				711520E01CC7452E00DFBF3C /* emoji_2.png */,
+				711520E11CC7452E00DFBF3C /* emoji_20.png */,
+				711520E21CC7452E00DFBF3C /* emoji_21.png */,
+				711520E31CC7452E00DFBF3C /* emoji_22.png */,
+				711520E41CC7452E00DFBF3C /* emoji_23.png */,
+				711520E51CC7452E00DFBF3C /* emoji_24.png */,
+				711520E61CC7452E00DFBF3C /* emoji_25.png */,
+				711520E71CC7452E00DFBF3C /* emoji_26.png */,
+				711520E81CC7452E00DFBF3C /* emoji_27.png */,
+				711520E91CC7452E00DFBF3C /* emoji_28.png */,
+				711520EA1CC7452E00DFBF3C /* emoji_29.png */,
+				711520EB1CC7452E00DFBF3C /* emoji_3.png */,
+				711520EC1CC7452E00DFBF3C /* emoji_30.png */,
+				711520ED1CC7452E00DFBF3C /* emoji_31.png */,
+				711520EE1CC7452E00DFBF3C /* emoji_32.png */,
+				711520EF1CC7452E00DFBF3C /* emoji_33.png */,
+				711520F01CC7452E00DFBF3C /* emoji_34.png */,
+				711520F11CC7452E00DFBF3C /* emoji_35.png */,
+				711520F21CC7452E00DFBF3C /* emoji_36.png */,
+				711520F31CC7452E00DFBF3C /* emoji_37.png */,
+				711520F41CC7452E00DFBF3C /* emoji_38.png */,
+				711520F51CC7452E00DFBF3C /* emoji_39.png */,
+				711520F61CC7452E00DFBF3C /* emoji_4.png */,
+				711520F71CC7452E00DFBF3C /* emoji_40.png */,
+				711520F81CC7452E00DFBF3C /* emoji_41.png */,
+				711520F91CC7452E00DFBF3C /* emoji_42.png */,
+				711520FA1CC7452E00DFBF3C /* emoji_43.png */,
+				711520FB1CC7452E00DFBF3C /* emoji_44.png */,
+				711520FC1CC7452E00DFBF3C /* emoji_45.png */,
+				711520FD1CC7452E00DFBF3C /* emoji_46.png */,
+				711520FE1CC7452E00DFBF3C /* emoji_47.png */,
+				711520FF1CC7452E00DFBF3C /* emoji_48.png */,
+				711521001CC7452E00DFBF3C /* emoji_49.png */,
+				711521011CC7452E00DFBF3C /* emoji_5.png */,
+				711521021CC7452E00DFBF3C /* emoji_50.png */,
+				711521031CC7452E00DFBF3C /* emoji_51.png */,
+				711521041CC7452E00DFBF3C /* emoji_52.png */,
+				711521051CC7452E00DFBF3C /* emoji_53.png */,
+				711521061CC7452E00DFBF3C /* emoji_54.png */,
+				711521071CC7452E00DFBF3C /* emoji_55.png */,
+				711521081CC7452E00DFBF3C /* emoji_56.png */,
+				711521091CC7452E00DFBF3C /* emoji_57.png */,
+				7115210A1CC7452E00DFBF3C /* emoji_58.png */,
+				7115210B1CC7452E00DFBF3C /* emoji_59.png */,
+				7115210C1CC7452E00DFBF3C /* emoji_6.png */,
+				7115210D1CC7452E00DFBF3C /* emoji_60.png */,
+				7115210E1CC7452E00DFBF3C /* emoji_61.png */,
+				7115210F1CC7452E00DFBF3C /* emoji_62.png */,
+				711521101CC7452E00DFBF3C /* emoji_63.png */,
+				711521111CC7452E00DFBF3C /* emoji_64.png */,
+				711521121CC7452E00DFBF3C /* emoji_65.png */,
+				711521131CC7452E00DFBF3C /* emoji_66.png */,
+				711521141CC7452E00DFBF3C /* emoji_67.png */,
+				711521151CC7452E00DFBF3C /* emoji_68.png */,
+				711521161CC7452E00DFBF3C /* emoji_69.png */,
+				711521171CC7452E00DFBF3C /* emoji_7.png */,
+				711521181CC7452E00DFBF3C /* emoji_70.png */,
+				711521191CC7452E00DFBF3C /* emoji_71.png */,
+				7115211A1CC7452E00DFBF3C /* emoji_72.png */,
+				7115211B1CC7452E00DFBF3C /* emoji_73.png */,
+				7115211C1CC7452E00DFBF3C /* emoji_74.png */,
+				7115211D1CC7452E00DFBF3C /* emoji_75.png */,
+				7115211E1CC7452E00DFBF3C /* emoji_76.png */,
+				7115211F1CC7452E00DFBF3C /* emoji_77.png */,
+				711521201CC7452E00DFBF3C /* emoji_78.png */,
+				711521211CC7452E00DFBF3C /* emoji_79.png */,
+				711521221CC7452E00DFBF3C /* emoji_8.png */,
+				711521231CC7452E00DFBF3C /* emoji_80.png */,
+				711521241CC7452E00DFBF3C /* emoji_81.png */,
+				711521251CC7452E00DFBF3C /* emoji_82.png */,
+				711521261CC7452E00DFBF3C /* emoji_83.png */,
+				711521271CC7452E00DFBF3C /* emoji_84.png */,
+				711521281CC7452E00DFBF3C /* emoji_85.png */,
+				711521291CC7452E00DFBF3C /* emoji_86.png */,
+				7115212A1CC7452E00DFBF3C /* emoji_87.png */,
+				7115212B1CC7452E00DFBF3C /* emoji_88.png */,
+				7115212C1CC7452E00DFBF3C /* emoji_89.png */,
+				7115212D1CC7452E00DFBF3C /* emoji_9.png */,
+				7115212E1CC7452E00DFBF3C /* emoji_90.png */,
+				7115212F1CC7452E00DFBF3C /* emoji_91.png */,
+				711521301CC7452E00DFBF3C /* emoji_92.png */,
+				711521311CC7452E00DFBF3C /* emoji_93.png */,
+				711521321CC7452E00DFBF3C /* emoji_94.png */,
+				711521331CC7452E00DFBF3C /* emoji_95.png */,
+				711521341CC7452E00DFBF3C /* emoji_96.png */,
+				711521351CC7452E00DFBF3C /* emoji_97.png */,
+				711521361CC7452E00DFBF3C /* emoji_98.png */,
+				711521371CC7452E00DFBF3C /* emoji_99.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		71ADF2D71D06CC3500F163C5 /* Extents */ = {
+			isa = PBXGroup;
+			children = (
+				71ADF2D81D06CC8F00F163C5 /* NSAttributedString+Emotion.h */,
+				71ADF2D91D06CC8F00F163C5 /* NSAttributedString+Emotion.m */,
+			);
+			path = Extents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71151D041CC7206200DFBF3C /* SLEmotionKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71151D321CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoard" */;
+			buildPhases = (
+				71151D011CC7206200DFBF3C /* Sources */,
+				71151D021CC7206200DFBF3C /* Frameworks */,
+				71151D031CC7206200DFBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLEmotionKeyBoard;
+			productName = SLEmotionKeyBoard;
+			productReference = 71151D051CC7206200DFBF3C /* SLEmotionKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71151D1D1CC7206200DFBF3C /* SLEmotionKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71151D351CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoardTests" */;
+			buildPhases = (
+				71151D1A1CC7206200DFBF3C /* Sources */,
+				71151D1B1CC7206200DFBF3C /* Frameworks */,
+				71151D1C1CC7206200DFBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71151D201CC7206200DFBF3C /* PBXTargetDependency */,
+			);
+			name = SLEmotionKeyBoardTests;
+			productName = SLEmotionKeyBoardTests;
+			productReference = 71151D1E1CC7206200DFBF3C /* SLEmotionKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71151D281CC7206200DFBF3C /* SLEmotionKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71151D381CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoardUITests" */;
+			buildPhases = (
+				71151D251CC7206200DFBF3C /* Sources */,
+				71151D261CC7206200DFBF3C /* Frameworks */,
+				71151D271CC7206200DFBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71151D2B1CC7206200DFBF3C /* PBXTargetDependency */,
+			);
+			name = SLEmotionKeyBoardUITests;
+			productName = SLEmotionKeyBoardUITests;
+			productReference = 71151D291CC7206200DFBF3C /* SLEmotionKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71151CFD1CC7206200DFBF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "孙磊";
+				TargetAttributes = {
+					71151D041CC7206200DFBF3C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 329ZYF9D22;
+					};
+					71151D1D1CC7206200DFBF3C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 329ZYF9D22;
+						TestTargetID = 71151D041CC7206200DFBF3C;
+					};
+					71151D281CC7206200DFBF3C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 329ZYF9D22;
+						TestTargetID = 71151D041CC7206200DFBF3C;
+					};
+				};
+			};
+			buildConfigurationList = 71151D001CC7206200DFBF3C /* Build configuration list for PBXProject "SLEmotionKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71151CFC1CC7206200DFBF3C;
+			productRefGroup = 71151D061CC7206200DFBF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71151D041CC7206200DFBF3C /* SLEmotionKeyBoard */,
+				71151D1D1CC7206200DFBF3C /* SLEmotionKeyBoardTests */,
+				71151D281CC7206200DFBF3C /* SLEmotionKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71151D031CC7206200DFBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711521391CC7452E00DFBF3C /* emoji_1.png in Resources */,
+				711521531CC7452E00DFBF3C /* emoji_26.png in Resources */,
+				711521911CC7452E00DFBF3C /* emoji_82.png in Resources */,
+				7115217F1CC7452E00DFBF3C /* emoji_66.png in Resources */,
+				7115213E1CC7452E00DFBF3C /* emoji_103.png in Resources */,
+				711521771CC7452E00DFBF3C /* emoji_59.png in Resources */,
+				711521881CC7452E00DFBF3C /* emoji_74.png in Resources */,
+				711521431CC7452E00DFBF3C /* emoji_11.png in Resources */,
+				7115214C1CC7452E00DFBF3C /* emoji_2.png in Resources */,
+				7115217D1CC7452E00DFBF3C /* emoji_64.png in Resources */,
+				711521581CC7452E00DFBF3C /* emoji_30.png in Resources */,
+				71151D181CC7206200DFBF3C /* LaunchScreen.storyboard in Resources */,
+				711521931CC7452E00DFBF3C /* emoji_84.png in Resources */,
+				711521661CC7452E00DFBF3C /* emoji_43.png in Resources */,
+				7115214B1CC7452E00DFBF3C /* emoji_19.png in Resources */,
+				711521961CC7452E00DFBF3C /* emoji_87.png in Resources */,
+				7115213D1CC7452E00DFBF3C /* emoji_102.png in Resources */,
+				711521621CC7452E00DFBF3C /* emoji_4.png in Resources */,
+				7115218F1CC7452E00DFBF3C /* emoji_80.png in Resources */,
+				711521601CC7452E00DFBF3C /* emoji_38.png in Resources */,
+				7115214A1CC7452E00DFBF3C /* emoji_18.png in Resources */,
+				7115218C1CC7452E00DFBF3C /* emoji_78.png in Resources */,
+				711521461CC7452E00DFBF3C /* emoji_14.png in Resources */,
+				711521821CC7452E00DFBF3C /* emoji_69.png in Resources */,
+				711521441CC7452E00DFBF3C /* emoji_12.png in Resources */,
+				711521A81CC8711100DFBF3C /* emotion.png in Resources */,
+				71151D151CC7206200DFBF3C /* Assets.xcassets in Resources */,
+				711521501CC7452E00DFBF3C /* emoji_23.png in Resources */,
+				711521721CC7452E00DFBF3C /* emoji_54.png in Resources */,
+				711521701CC7452E00DFBF3C /* emoji_52.png in Resources */,
+				711521491CC7452E00DFBF3C /* emoji_17.png in Resources */,
+				7115214D1CC7452E00DFBF3C /* emoji_20.png in Resources */,
+				711521681CC7452E00DFBF3C /* emoji_45.png in Resources */,
+				7115219D1CC7452E00DFBF3C /* emoji_93.png in Resources */,
+				711521A11CC7452E00DFBF3C /* emoji_97.png in Resources */,
+				711521561CC7452E00DFBF3C /* emoji_29.png in Resources */,
+				7115215C1CC7452E00DFBF3C /* emoji_34.png in Resources */,
+				7115216B1CC7452E00DFBF3C /* emoji_48.png in Resources */,
+				7115217E1CC7452E00DFBF3C /* emoji_65.png in Resources */,
+				711521401CC7452E00DFBF3C /* emoji_105.png in Resources */,
+				7115218E1CC7452E00DFBF3C /* emoji_8.png in Resources */,
+				711521891CC7452E00DFBF3C /* emoji_75.png in Resources */,
+				7115216D1CC7452E00DFBF3C /* emoji_5.png in Resources */,
+				711521801CC7452E00DFBF3C /* emoji_67.png in Resources */,
+				711521971CC7452E00DFBF3C /* emoji_88.png in Resources */,
+				7115218B1CC7452E00DFBF3C /* emoji_77.png in Resources */,
+				711521901CC7452E00DFBF3C /* emoji_81.png in Resources */,
+				7115216A1CC7452E00DFBF3C /* emoji_47.png in Resources */,
+				711521791CC7452E00DFBF3C /* emoji_60.png in Resources */,
+				71151D131CC7206200DFBF3C /* Main.storyboard in Resources */,
+				711521981CC7452E00DFBF3C /* emoji_89.png in Resources */,
+				711521741CC7452E00DFBF3C /* emoji_56.png in Resources */,
+				711521411CC7452E00DFBF3C /* emoji_106.png in Resources */,
+				711521811CC7452E00DFBF3C /* emoji_68.png in Resources */,
+				711521641CC7452E00DFBF3C /* emoji_41.png in Resources */,
+				7115215B1CC7452E00DFBF3C /* emoji_33.png in Resources */,
+				7115219C1CC7452E00DFBF3C /* emoji_92.png in Resources */,
+				711521521CC7452E00DFBF3C /* emoji_25.png in Resources */,
+				711521381CC7452E00DFBF3C /* emoji.txt in Resources */,
+				7115219E1CC7452E00DFBF3C /* emoji_94.png in Resources */,
+				711521A31CC7452E00DFBF3C /* emoji_99.png in Resources */,
+				7115217A1CC7452E00DFBF3C /* emoji_61.png in Resources */,
+				711521761CC7452E00DFBF3C /* emoji_58.png in Resources */,
+				7115216C1CC7452E00DFBF3C /* emoji_49.png in Resources */,
+				7115216F1CC7452E00DFBF3C /* emoji_51.png in Resources */,
+				711521471CC7452E00DFBF3C /* emoji_15.png in Resources */,
+				7115217B1CC7452E00DFBF3C /* emoji_62.png in Resources */,
+				7115213C1CC7452E00DFBF3C /* emoji_101.png in Resources */,
+				711521851CC7452E00DFBF3C /* emoji_71.png in Resources */,
+				7115213A1CC7452E00DFBF3C /* emoji_10.png in Resources */,
+				711521511CC7452E00DFBF3C /* emoji_24.png in Resources */,
+				711521671CC7452E00DFBF3C /* emoji_44.png in Resources */,
+				711521731CC7452E00DFBF3C /* emoji_55.png in Resources */,
+				711521921CC7452E00DFBF3C /* emoji_83.png in Resources */,
+				7115213B1CC7452E00DFBF3C /* emoji_100.png in Resources */,
+				7115214E1CC7452E00DFBF3C /* emoji_21.png in Resources */,
+				7115213F1CC7452E00DFBF3C /* emoji_104.png in Resources */,
+				711521841CC7452E00DFBF3C /* emoji_70.png in Resources */,
+				7115216E1CC7452E00DFBF3C /* emoji_50.png in Resources */,
+				711521611CC7452E00DFBF3C /* emoji_39.png in Resources */,
+				711521A01CC7452E00DFBF3C /* emoji_96.png in Resources */,
+				711521991CC7452E00DFBF3C /* emoji_9.png in Resources */,
+				711521571CC7452E00DFBF3C /* emoji_3.png in Resources */,
+				711521691CC7452E00DFBF3C /* emoji_46.png in Resources */,
+				711521AA1CC8711100DFBF3C /* emotion@2x.png in Resources */,
+				711521541CC7452E00DFBF3C /* emoji_27.png in Resources */,
+				7115215A1CC7452E00DFBF3C /* emoji_32.png in Resources */,
+				711521711CC7452E00DFBF3C /* emoji_53.png in Resources */,
+				711521651CC7452E00DFBF3C /* emoji_42.png in Resources */,
+				711521A91CC8711100DFBF3C /* keyboard.png in Resources */,
+				7115217C1CC7452E00DFBF3C /* emoji_63.png in Resources */,
+				711521A21CC7452E00DFBF3C /* emoji_98.png in Resources */,
+				7115214F1CC7452E00DFBF3C /* emoji_22.png in Resources */,
+				7115219A1CC7452E00DFBF3C /* emoji_90.png in Resources */,
+				7115215E1CC7452E00DFBF3C /* emoji_36.png in Resources */,
+				711521591CC7452E00DFBF3C /* emoji_31.png in Resources */,
+				711521781CC7452E00DFBF3C /* emoji_6.png in Resources */,
+				711521751CC7452E00DFBF3C /* emoji_57.png in Resources */,
+				7115215D1CC7452E00DFBF3C /* emoji_35.png in Resources */,
+				711521551CC7452E00DFBF3C /* emoji_28.png in Resources */,
+				711521871CC7452E00DFBF3C /* emoji_73.png in Resources */,
+				7115215F1CC7452E00DFBF3C /* emoji_37.png in Resources */,
+				7115218A1CC7452E00DFBF3C /* emoji_76.png in Resources */,
+				711521481CC7452E00DFBF3C /* emoji_16.png in Resources */,
+				7115219B1CC7452E00DFBF3C /* emoji_91.png in Resources */,
+				711521861CC7452E00DFBF3C /* emoji_72.png in Resources */,
+				711521451CC7452E00DFBF3C /* emoji_13.png in Resources */,
+				7115218D1CC7452E00DFBF3C /* emoji_79.png in Resources */,
+				711521831CC7452E00DFBF3C /* emoji_7.png in Resources */,
+				711521421CC7452E00DFBF3C /* emoji_107.png in Resources */,
+				7115219F1CC7452E00DFBF3C /* emoji_95.png in Resources */,
+				711521951CC7452E00DFBF3C /* emoji_86.png in Resources */,
+				711521631CC7452E00DFBF3C /* emoji_40.png in Resources */,
+				711521941CC7452E00DFBF3C /* emoji_85.png in Resources */,
+				711521AB1CC8711100DFBF3C /* keboard@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D1C1CC7206200DFBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D271CC7206200DFBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71151D011CC7206200DFBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71151D101CC7206200DFBF3C /* ViewController.m in Sources */,
+				71151D0D1CC7206200DFBF3C /* AppDelegate.m in Sources */,
+				71ADF2DD1D06CD4500F163C5 /* EmotionTextAttachment.m in Sources */,
+				71ADF2D61D056AFF00F163C5 /* EmotionLabel.m in Sources */,
+				71151D3E1CC720D200DFBF3C /* SLKeyboardView.m in Sources */,
+				71151D411CC7295B00DFBF3C /* EmotionScrollView.m in Sources */,
+				71ADF2DA1D06CC8F00F163C5 /* NSAttributedString+Emotion.m in Sources */,
+				71151D0A1CC7206200DFBF3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D1A1CC7206200DFBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71151D231CC7206200DFBF3C /* SLEmotionKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71151D251CC7206200DFBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71151D2E1CC7206200DFBF3C /* SLEmotionKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71151D201CC7206200DFBF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71151D041CC7206200DFBF3C /* SLEmotionKeyBoard */;
+			targetProxy = 71151D1F1CC7206200DFBF3C /* PBXContainerItemProxy */;
+		};
+		71151D2B1CC7206200DFBF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71151D041CC7206200DFBF3C /* SLEmotionKeyBoard */;
+			targetProxy = 71151D2A1CC7206200DFBF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71151D111CC7206200DFBF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71151D121CC7206200DFBF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71151D161CC7206200DFBF3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71151D171CC7206200DFBF3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71151D301CC7206200DFBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71151D311CC7206200DFBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71151D331CC7206200DFBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SLEmotionKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		71151D341CC7206200DFBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SLEmotionKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		71151D361CC7206200DFBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLEmotionKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLEmotionKeyBoard.app/SLEmotionKeyBoard";
+			};
+			name = Debug;
+		};
+		71151D371CC7206200DFBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLEmotionKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLEmotionKeyBoard.app/SLEmotionKeyBoard";
+			};
+			name = Release;
+		};
+		71151D391CC7206200DFBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLEmotionKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLEmotionKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71151D3A1CC7206200DFBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLEmotionKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlei.SLEmotionKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLEmotionKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71151D001CC7206200DFBF3C /* Build configuration list for PBXProject "SLEmotionKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71151D301CC7206200DFBF3C /* Debug */,
+				71151D311CC7206200DFBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71151D321CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71151D331CC7206200DFBF3C /* Debug */,
+				71151D341CC7206200DFBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71151D351CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71151D361CC7206200DFBF3C /* Debug */,
+				71151D371CC7206200DFBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71151D381CC7206200DFBF3C /* Build configuration list for PBXNativeTarget "SLEmotionKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71151D391CC7206200DFBF3C /* Debug */,
+				71151D3A1CC7206200DFBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71151CFD1CC7206200DFBF3C /* Project object */;
+}
